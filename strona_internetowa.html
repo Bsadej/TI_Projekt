@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>DINNER SELECTOR</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="#home"><i class="fa fa-fw fa-home"></i> Strona główna</a>
+            <a href="#settings"><i class="fa fa-fw fa-wrench"></i> Ustawienia</a>
+            <a href="#profile"><i class="fa fa-fw fa-user"></i> Profil</a>
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Kontakt</a>
+        </div>
+
+        <div class="main"> 
+
+            <div class="topnav">
+                <a class="active" href="#home">Strona główna</a>
+                <a href="#recipes">Przepisy</a>
+                <a href="#inspiration">Inspiracje</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+
+            <div class="rectangle">
+                <div class="question">CO ZJEŚĆ NA KOLACJĘ?</div>
+                <div class="text">Zastanawiasz się co zjeść na kolację? </div>
+                <div class="text">Kliknij przycisk poniżej i wylosuj swoją dzisiejszą kolację!</div>
+                <button class="button" type="button" onclick="randomItem('output')">Losuj jedzonko</button>
+                <h4 id="output"></h4>
+                <img id="pizzacat" src="https://c.tenor.com/JiNfNwrkjtEAAAAM/cat-funny.gif" alt="pizzacat" hidden>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

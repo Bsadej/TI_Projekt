@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+body {
+min-height: 100%;
+width: 100%;
+background-image: url('https://wallpaperaccess.com/full/1463534.jpg');
+background-position: -70% 50%;
+overflow: hidden;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1{
+font-family: 'Comfortaa', cursive;
+}
+
+.rectangle {           
+width: 1300px;
+height: 800px;
+background-color: rgb(245, 244, 212);
+opacity: 0.9;
+border-radius: 125px;
+border-style: solid;
+border-width: thick;
+border-color: #f1c40f;
+position: relative;
+margin: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+        
+.topnav {
+overflow: hidden;
+display: flex;
+justify-content: center;     
+
+}
+
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 20px 16px;
+text-decoration: none;
+font-size: 16px;
+font-family: 'Comfortaa', cursive;
+font-weight: 700;
+
+}
+
+.topnav a:hover { 
+color: #f1c40f;
+}
+
+.topnav a.active { 
+color: #16a085;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.question{
+  color: #2980b9;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  
+}
+
+.text {
+  color: #111;
+  font-family: 'Comfortaa';
+  font-size: 30px;
+}
+
+.button {
+  background-color: #f1c40f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 1;
+  z-index: 10;
+  border-radius: 12px;
+}
+
+h4{
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
