@@ -1,3 +1,3 @@
 # TI_Projekt
 
-Strona internetowa dla znudzonych i szukających pomysłu na kolację
+Strona internetowa dla szukających pomysłu na kolację
